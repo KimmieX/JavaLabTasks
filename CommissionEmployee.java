@@ -51,7 +51,6 @@ public class CommissionEmployee {
         return grossSales * commissionRate;
     }
 
-    //@Override
     public String toString() {
         return "First Name: " + firstName + "\nLast Name: " + lastName + "\nSocial Security Number: " + socialSecurityNumber +  "\nGross Sales: $" + grossSales + "\nCommission Rate: " + (commissionRate * 100) + "%";
     }
